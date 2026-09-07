@@ -1,6 +1,6 @@
 const menuButton = document.querySelector('.menu-toggle');
-const nav = document.querySelector('.main-nav');
-
+const nav = document.querySelector('.main-nav'); 
+ 
 menuButton.addEventListener('click', () => {
   const isOpen = nav.classList.toggle('open');
   menuButton.setAttribute('aria-expanded', String(isOpen));
